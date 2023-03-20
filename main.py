@@ -1,7 +1,4 @@
-from matplotlib.patches import ConnectionPatch
-import matplotlib.pyplot as plt
 import numpy as np
-import scipy.spatial.distance as dist
 
 def data_time_warping(x, y):
     n, m = len(x), len(y)
