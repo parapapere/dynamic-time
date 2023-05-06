@@ -1,12 +1,11 @@
 import numpy as np
 from scipy.io import wavfile
 import IPython.display as ipyd
-import librosa
 import librosa.display
-import matplotlib
 import matplotlib.pyplot as plt
 from scipy.spatial import distance as dist
 
+from dynamic_programming import dp
 
 # x_fn = "audio/hello1.wav"
 # x_fn = "audio/hello2.wav"
